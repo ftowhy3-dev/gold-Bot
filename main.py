@@ -26,7 +26,9 @@ def check(symbol, name):
     if prev['EMA5'] > prev['EMA13'] and last['EMA5'] < last['EMA13']:
         send(f"🔴 {name} SELL @ {price:.2f}")
 while True:
-        try:
+    try:
         check("GC=F", "XAUUSD GOLD")
         check("EURUSD=X", "EURUSD")
-         
+    except Exception as e:
+        print(e)
+    time.sleep(60)
