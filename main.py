@@ -3,7 +3,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-TOKEN = "9036640474:AAES3qOF2n2cK_mgAWZeXuUTZcRbfZ-B3jU  
+TOKEN = "9036640474:AAES3qOF2n2cK_mgAWZeXuUTZcRbfZ-B3jU"  
 
 HAT_ID = "1320938378"
 
